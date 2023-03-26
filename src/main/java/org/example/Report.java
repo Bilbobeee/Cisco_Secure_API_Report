@@ -23,7 +23,6 @@ public class Report {
             System.err.println("Файл не знайдено");
         }
 
-        int count = 1;
         String line = "";
 
         Library library = new Library();
@@ -52,6 +51,9 @@ public class Report {
             System.err.println("Помилка при зчитуванні/виводу файлу");
         }
 
+        listFromFile.addAll(library.allNameOFGroupForViewAllPC);
+
+
         Collections.sort(listFromFile);
         int matches = 0;
 
@@ -78,7 +80,7 @@ public class Report {
             writeInFile = new BufferedWriter(new FileWriter(pathToSaveFile));
 
             for (Map.Entry<String,Integer> cell : treeMap.entrySet()){
-                writeInFile.write(cell.getValue()+"\t "+cell.getKey()+"\n");
+                writeInFile.write((cell.getValue()-1)+"\t "+cell.getKey()+"\n");
 
             }
 
