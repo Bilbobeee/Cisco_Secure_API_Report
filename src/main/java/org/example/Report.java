@@ -65,6 +65,7 @@ public class Report {
 
         for (int i=1; i<listFromFile.size(); i++){
 //            System.out.println(i+" "+listFromFile.get(i));
+//
             if (listFromFile.get(i-1).equals(listFromFile.get(i))){
                 matches ++;
             } else {
@@ -80,7 +81,7 @@ public class Report {
             writeInFile = new BufferedWriter(new FileWriter(pathToSaveFile));
 
             for (Map.Entry<String,Integer> cell : treeMap.entrySet()){
-                writeInFile.write((cell.getValue()-1)+"\t "+cell.getKey()+"\n");
+                writeInFile.write(cell.getKey()+"\t"+(cell.getValue()-1)+"\n");
 
             }
 
