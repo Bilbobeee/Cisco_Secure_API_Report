@@ -60,8 +60,6 @@ public class Report {
         String list_i = "";
 
         for (int i=1; i<listFromFile.size(); i++){
-            list_i_1 = listFromFile.get(i-1);
-            list_i = listFromFile.get(i);
 
             if (listFromFile.get(i-1).equals(listFromFile.get(i))){
                 matches ++;
@@ -70,11 +68,11 @@ public class Report {
                 hashMap.put(listFromFile.get(i-1),matches);
                 matches = 0;
             }
-            if (i==listFromFile.size()){
-                matches++;
+
+            if (i==listFromFile.size()-1){
                 hashMap.put(listFromFile.get(i-1),matches);
-                matches = 0;
             }
+
         }
 
         TreeMap<String,Integer> treeMap = new TreeMap<>(hashMap);
