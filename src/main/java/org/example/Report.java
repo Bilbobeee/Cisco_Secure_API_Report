@@ -16,12 +16,17 @@ public class Report {
 
     public void startFormToReport(String pathToFile,String pathToSaveFile){
 
+        System.out.println("Розпочато зчитування файлу");
+
+
         try {
             input = new BufferedReader(new FileReader(pathToFile));
 
         } catch (FileNotFoundException e){
             System.err.println("Файл не знайдено");
         }
+
+        System.out.println("Файл прочитано\nРозпочато формування Звіту");
 
         String line = "";
 
@@ -32,7 +37,6 @@ public class Report {
 
         try {
             while (input.ready()){
-//                System.out.println((count++) + " " + (line = input.readLine()));
                 line = input.readLine();
                 stSplit = line.split(",");
 
@@ -41,7 +45,6 @@ public class Report {
                     for (int i=0; i<stSplit.length; i++){
                         if (stSplit[i].contains(cell)){
                             listFromFile.add(stSplit[i]);
-//                            System.out.println((count++)+" "+stSplit[i]);
                         }
                     }
                 }
@@ -57,15 +60,10 @@ public class Report {
         Collections.sort(listFromFile);
         int matches = 0;
 
-        for (String cell : listFromFile){
-//            System.out.println(cell);
-
-        }
         HashMap<String,Integer> hashMap = new HashMap<>();
 
         for (int i=1; i<listFromFile.size(); i++){
-//            System.out.println(i+" "+listFromFile.get(i));
-//
+
             if (listFromFile.get(i-1).equals(listFromFile.get(i))){
                 matches ++;
             } else {
@@ -99,6 +97,8 @@ public class Report {
         } catch (IOException e){
             e.printStackTrace();
         }
+
+        System.out.println("Звіт сформовано та Збережено поруч з початковим файлом.");
 
     }
 

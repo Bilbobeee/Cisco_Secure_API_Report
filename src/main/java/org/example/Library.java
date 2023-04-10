@@ -174,6 +174,7 @@ public class Library {
         allNameOFGroupForViewAllPC.add("S_G_UGI");
         allNameOFGroupForViewAllPC.add("S_G_Interpol");
         allNameOFGroupForViewAllPC.add("S_G_MP");
+        allNameOFGroupForViewAllPC.add("S_G_SKOZ");
 
         allNameOFGroupForViewAllPC.add("S_R_Krolevets_VP");
         allNameOFGroupForViewAllPC.add("S_R_Romenskyi_RVP");
