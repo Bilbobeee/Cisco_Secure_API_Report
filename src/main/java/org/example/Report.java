@@ -1,10 +1,5 @@
 package org.example;
 
-import org.apache.poi.ss.usermodel.Cell;
-import org.apache.poi.ss.usermodel.Row;
-import org.apache.poi.xssf.usermodel.XSSFSheet;
-import org.apache.poi.xssf.usermodel.XSSFWorkbook;
-
 import java.io.*;
 import java.util.*;
 
@@ -18,7 +13,6 @@ public class Report {
 
         System.out.println("Розпочато зчитування файлу");
 
-
         try {
             input = new BufferedReader(new FileReader(pathToFile));
 
@@ -26,12 +20,11 @@ public class Report {
             System.err.println("Файл не знайдено");
         }
 
-        System.out.println("Файл прочитано\nРозпочато формування Звіту");
-
         String line = "";
 
         Library library = new Library();
         listOfName = library.list;
+
         String[] stSplit = {};
         ArrayList<String> listFromFile = new ArrayList<>();
 
@@ -54,19 +47,30 @@ public class Report {
             System.err.println("Помилка при зчитуванні/виводу файлу");
         }
 
-        listFromFile.addAll(library.allNameOFGroupForViewAllPC);
+        System.out.println("Файл прочитано\nРозпочато формування Звіту");
 
+        listFromFile.addAll(library.allNameOFGroupForViewAllPC);
 
         Collections.sort(listFromFile);
         int matches = 0;
 
         HashMap<String,Integer> hashMap = new HashMap<>();
 
+        String list_i_1 = "";
+        String list_i = "";
+
         for (int i=1; i<listFromFile.size(); i++){
+            list_i_1 = listFromFile.get(i-1);
+            list_i = listFromFile.get(i);
 
             if (listFromFile.get(i-1).equals(listFromFile.get(i))){
                 matches ++;
             } else {
+                matches++;
+                hashMap.put(listFromFile.get(i-1),matches);
+                matches = 0;
+            }
+            if (i==listFromFile.size()){
                 matches++;
                 hashMap.put(listFromFile.get(i-1),matches);
                 matches = 0;
