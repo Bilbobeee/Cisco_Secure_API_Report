@@ -282,24 +282,24 @@ public class Library {
         allNameOFGroupForViewAllPC.add("KG_G_UOAZOR");
 
         allNameOFGroupForViewAllPC.add("KG_R_Kropyvnytske_RUP");
-        allNameOFGroupForViewAllPC.add("KG_R_SPD1_smt.Petrove");
+        allNameOFGroupForViewAllPC.add("KG_R_SPD1_Petrove");
         allNameOFGroupForViewAllPC.add("KG_R_Oleksandriiskyi_RVP");
-        allNameOFGroupForViewAllPC.add("KG_R_VP2_smt.Dobrovelychkivka");
-        allNameOFGroupForViewAllPC.add("KG_R_VP1_m.Dolynska");
-        allNameOFGroupForViewAllPC.add("KG_R_SPD1_smt.Ustynivka");
-        allNameOFGroupForViewAllPC.add("KG_R_SPD1_smt.Vilshanka");
+        allNameOFGroupForViewAllPC.add("KG_R_VP2_Dobrovelychkivka");
+        allNameOFGroupForViewAllPC.add("KG_R_VP1_Dolynska");
+        allNameOFGroupForViewAllPC.add("KG_R_SPD1_Ustynivka");
+        allNameOFGroupForViewAllPC.add("KG_R_SPD1_Vilshanka");
         allNameOFGroupForViewAllPC.add("KG_R_Holovanivskyi_RVP");
-        allNameOFGroupForViewAllPC.add("KG_R_SPD3_smt.Novoarkhanhelsk");
-        allNameOFGroupForViewAllPC.add("KG_R_SPD2_m.Blahovishchenske");
-        allNameOFGroupForViewAllPC.add("KG_R_VP2 m.Kropyvnytskyi");
-        allNameOFGroupForViewAllPC.add("KG_R_SPD2_smt.Novhorodka");
-        allNameOFGroupForViewAllPC.add("KG_R_SPD1_smt.Kompaniivka");
-        allNameOFGroupForViewAllPC.add("KG_R_VP1_m.Svitlovodsk");
-        allNameOFGroupForViewAllPC.add("KG_R_VP1_m.Znamianka");
-        allNameOFGroupForViewAllPC.add("KG_R_VP3_m.Bobrynets");
-        allNameOFGroupForViewAllPC.add("KG_R_SPD1_smt.Oleksandrivka");
-        allNameOFGroupForViewAllPC.add("KG_R_VP1_m.Mala_Vyska");
-        allNameOFGroupForViewAllPC.add("KG_R_VP1_m.Haivoron");
+        allNameOFGroupForViewAllPC.add("KG_R_SPD3_Novoarkhanhelsk");
+        allNameOFGroupForViewAllPC.add("KG_R_SPD2_Blahovishchenske");
+        allNameOFGroupForViewAllPC.add("KG_R_VP2_Kropyvnytskyi");
+        allNameOFGroupForViewAllPC.add("KG_R_SPD2_Novhorodka");
+        allNameOFGroupForViewAllPC.add("KG_R_SPD1_Kompaniivka");
+        allNameOFGroupForViewAllPC.add("KG_R_VP1_Svitlovodsk");
+        allNameOFGroupForViewAllPC.add("KG_R_VP1_Znamianka");
+        allNameOFGroupForViewAllPC.add("KG_R_VP3_Bobrynets");
+        allNameOFGroupForViewAllPC.add("KG_R_SPD1_Oleksandrivka");
+        allNameOFGroupForViewAllPC.add("KG_R_VP1_Mala_Vyska");
+        allNameOFGroupForViewAllPC.add("KG_R_VP1_Haivoron");
         allNameOFGroupForViewAllPC.add("KG_R_Novoukrainskyi_RVP");
 
     }
