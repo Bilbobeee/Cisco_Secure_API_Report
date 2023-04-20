@@ -10,8 +10,7 @@ public class Report {
     private static ArrayList<String> listOfName;
 
     public void startFormToReport(String pathToFile,String pathToSaveFile){
-
-        System.out.println("Розпочато зчитування файлу");
+        System.out.println("Розпочалося виконнання Завдання...");
 
         try {
             input = new BufferedReader(new FileReader(pathToFile));
@@ -24,7 +23,6 @@ public class Report {
 
         Library library = new Library();
         listOfName = library.list;
-
         String[] stSplit = {};
         ArrayList<String> listFromFile = new ArrayList<>();
 
@@ -47,17 +45,13 @@ public class Report {
             System.err.println("Помилка при зчитуванні/виводу файлу");
         }
 
-        System.out.println("Файл прочитано\nРозпочато формування Звіту");
-
         listFromFile.addAll(library.allNameOFGroupForViewAllPC);
+
 
         Collections.sort(listFromFile);
         int matches = 0;
 
         HashMap<String,Integer> hashMap = new HashMap<>();
-
-        String list_i_1 = "";
-        String list_i = "";
 
         for (int i=1; i<listFromFile.size(); i++){
 
@@ -68,11 +62,11 @@ public class Report {
                 hashMap.put(listFromFile.get(i-1),matches);
                 matches = 0;
             }
-
             if (i==listFromFile.size()-1){
+                matches++;
                 hashMap.put(listFromFile.get(i-1),matches);
+                matches = 0;
             }
-
         }
 
         TreeMap<String,Integer> treeMap = new TreeMap<>(hashMap);
@@ -82,7 +76,6 @@ public class Report {
 
             for (Map.Entry<String,Integer> cell : treeMap.entrySet()){
                 writeInFile.write(cell.getKey()+"\t"+(cell.getValue()-1)+"\n");
-
             }
 
             writeInFile.flush();
@@ -100,7 +93,7 @@ public class Report {
             e.printStackTrace();
         }
 
-        System.out.println("Звіт сформовано та Збережено поруч з початковим файлом.");
+        System.out.println("Завдання виконано УСПІШНО.");
 
     }
 
