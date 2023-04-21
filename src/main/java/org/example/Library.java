@@ -302,6 +302,55 @@ public class Library {
         allNameOFGroupForViewAllPC.add("KG_R_VP1_Haivoron");
         allNameOFGroupForViewAllPC.add("KG_R_Novoukrainskyi_RVP");
 
+        allNameOFGroupForViewAllPC.add("ZT_G_UIAP");
+        allNameOFGroupForViewAllPC.add("ZT_G_VVS");
+        allNameOFGroupForViewAllPC.add("ZT_G_VD");
+        allNameOFGroupForViewAllPC.add("ZT_G_VDZ");
+        allNameOFGroupForViewAllPC.add("ZT_G_VK");
+        allNameOFGroupForViewAllPC.add("ZT_G_VKA");
+        allNameOFGroupForViewAllPC.add("ZT_G_VMP");
+        allNameOFGroupForViewAllPC.add("ZT_G_VPZ");
+        allNameOFGroupForViewAllPC.add("ZT_G_SPPZ");
+        allNameOFGroupForViewAllPC.add("ZT_G_SZK");
+        allNameOFGroupForViewAllPC.add("ZT_G_SKOZ");
+        allNameOFGroupForViewAllPC.add("ZT_G_SMPS");
+        allNameOFGroupForViewAllPC.add("ZT_G_SOZDMTTO");
+        allNameOFGroupForViewAllPC.add("ZT_G_SPZ");
+        allNameOFGroupForViewAllPC.add("ZT_G_SU");
+        allNameOFGroupForViewAllPC.add("ZT_G_KORD");
+        allNameOFGroupForViewAllPC.add("ZT_G_UHI");
+        allNameOFGroupForViewAllPC.add("ZT_G_UKZ");
+        allNameOFGroupForViewAllPC.add("ZT_G_UKR");
+        allNameOFGroupForViewAllPC.add("ZT_G_ULMTZ");
+        allNameOFGroupForViewAllPC.add("ZT_G_TsZ");
+        allNameOFGroupForViewAllPC.add("ZT_G_UOS");
+        allNameOFGroupForViewAllPC.add("ZT_G_UOAZOR");
+        allNameOFGroupForViewAllPC.add("ZT_G_UPD");
+        allNameOFGroupForViewAllPC.add("ZT_G_UFZBO");
+        allNameOFGroupForViewAllPC.add("ZT_G_ITT1");
+        allNameOFGroupForViewAllPC.add("ZT_G_ITT2");
+        allNameOFGroupForViewAllPC.add("ZT_G_RPOP");
+
+        allNameOFGroupForViewAllPC.add("ZT_R_ZhRUP");
+        allNameOFGroupForViewAllPC.add("ZT_R_VP1_ZhRUP");
+        allNameOFGroupForViewAllPC.add("ZT_R_VP2_Korostyshiv");
+        allNameOFGroupForViewAllPC.add("ZT_R_VP1_Liubar");
+        allNameOFGroupForViewAllPC.add("ZT_R_VP2_Popilnia");
+        allNameOFGroupForViewAllPC.add("ZT_R_VP3_Radomyshl");
+        allNameOFGroupForViewAllPC.add("ZT_R_VP4_Khoroshiv");
+        allNameOFGroupForViewAllPC.add("ZT_R_SPD1_VP4_Pulyny");
+        allNameOFGroupForViewAllPC.add("ZT_R_VP5_Chudniv");
+        allNameOFGroupForViewAllPC.add("ZT_R_BRVP");
+        allNameOFGroupForViewAllPC.add("ZT_R_VPD1_Andrushivka");
+        allNameOFGroupForViewAllPC.add("ZT_R_VPD2_Ruzhyn");
+        allNameOFGroupForViewAllPC.add("ZT_R_KRUP");
+        allNameOFGroupForViewAllPC.add("ZT_R_VP1_Ovruch");
+        allNameOFGroupForViewAllPC.add("ZT_R_VP1_Malyn");
+        allNameOFGroupForViewAllPC.add("ZT_R_VP2_Olevsk");
+        allNameOFGroupForViewAllPC.add("ZT_R_ZRVP");
+        allNameOFGroupForViewAllPC.add("ZT_R_VPD1_Baranivka");
+        allNameOFGroupForViewAllPC.add("ZT_R_VP1_Iemilchyne");
+
     }
 
     public ArrayList<String> filling(){
