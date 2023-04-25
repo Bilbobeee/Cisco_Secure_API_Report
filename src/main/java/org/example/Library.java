@@ -16,9 +16,11 @@ public class Library {
         list.add("K_G_MK_");
         list.add("K_G_");
         list.add("K_R_");
-        list.add("Mykolaiv_G_");
+//        list.add("Mykolaiv_G_");
         list.add("M_G_");
         list.add("M_R_");
+        list.add("ZT_G_");
+        list.add("ZT_R_");
     }
 
     ArrayList<String> allNameOFGroupForViewAllPC = new ArrayList<>();

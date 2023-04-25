@@ -67,9 +67,16 @@ public class Report {
                 hashMap.put(listFromFile.get(i-1),matches);
                 matches = 0;
             }
+
         }
 
+
         TreeMap<String,Integer> treeMap = new TreeMap<>(hashMap);
+
+        for (Map.Entry<String, Integer> cell : treeMap.entrySet()){
+            System.out.println(cell.getKey()+"+"+ cell.getValue());
+        }
+
 
         try{
             writeInFile = new BufferedWriter(new FileWriter(pathToSaveFile));
