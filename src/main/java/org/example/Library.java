@@ -9,18 +9,25 @@ public class Library {
     {
         list.add("S_G_");
         list.add("S_R_");
-        list.add("Ch_G_");
-        list.add("Ch_R_");
+        list.add("CN_G_");
+        list.add("CN_R_");
         list.add("D_G_");
         list.add("D_R_");
         list.add("K_G_MK_");
         list.add("K_G_");
         list.add("K_R_");
-//        list.add("Mykolaiv_G_");
         list.add("M_G_");
         list.add("M_R_");
         list.add("ZT_G_");
         list.add("ZT_R_");
+        list.add("CH_G_");
+        list.add("CH_R_");
+        list.add("KG_G_");
+        list.add("KG_R_");
+        list.add("PL_G_");
+        list.add("PL_R_");
+        list.add("HK_G_");
+        list.add("HK_R_");
     }
 
     ArrayList<String> allNameOFGroupForViewAllPC = new ArrayList<>();
@@ -78,9 +85,6 @@ public class Library {
         allNameOFGroupForViewAllPC.add("D_R_Proxy_Dniprovske_RUP");
 
         //Київська область
-
-        allNameOFGroupForViewAllPC.add("K_G_MK_UIAP");
-
         allNameOFGroupForViewAllPC.add("K_G_MK_UIAP");
         allNameOFGroupForViewAllPC.add("K_G_UIAP");
         allNameOFGroupForViewAllPC.add("K_G_SU");
@@ -304,6 +308,7 @@ public class Library {
         allNameOFGroupForViewAllPC.add("KG_R_VP1_Haivoron");
         allNameOFGroupForViewAllPC.add("KG_R_Novoukrainskyi_RVP");
 
+        //Запорізька область
         allNameOFGroupForViewAllPC.add("ZT_G_UIAP");
         allNameOFGroupForViewAllPC.add("ZT_G_VVS");
         allNameOFGroupForViewAllPC.add("ZT_G_VD");
@@ -333,7 +338,7 @@ public class Library {
         allNameOFGroupForViewAllPC.add("ZT_G_ITT2");
         allNameOFGroupForViewAllPC.add("ZT_G_RPOP");
 
-        allNameOFGroupForViewAllPC.add("ZT_R_ZhRUP");
+        allNameOFGroupForViewAllPC.add("ZT_R_ZhRUP"); // це проблемна перемінна
         allNameOFGroupForViewAllPC.add("ZT_R_VP1_ZhRUP");
         allNameOFGroupForViewAllPC.add("ZT_R_VP2_Korostyshiv");
         allNameOFGroupForViewAllPC.add("ZT_R_VP1_Liubar");
@@ -352,6 +357,189 @@ public class Library {
         allNameOFGroupForViewAllPC.add("ZT_R_ZRVP");
         allNameOFGroupForViewAllPC.add("ZT_R_VPD1_Baranivka");
         allNameOFGroupForViewAllPC.add("ZT_R_VP1_Iemilchyne");
+
+        //Черкаська область
+        allNameOFGroupForViewAllPC.add("CH_G_KTs");
+        allNameOFGroupForViewAllPC.add("CH_G_UFZBO");
+        allNameOFGroupForViewAllPC.add("CH_G_KORD");
+        allNameOFGroupForViewAllPC.add("CH_G_SK");
+        allNameOFGroupForViewAllPC.add("CH_G_ITT1");
+        allNameOFGroupForViewAllPC.add("CH_G_TTs");
+        allNameOFGroupForViewAllPC.add("CH_G_SOZDMTTO");
+        allNameOFGroupForViewAllPC.add("CH_G_VKA");
+        allNameOFGroupForViewAllPC.add("CH_G_UPD");
+        allNameOFGroupForViewAllPC.add("CH_G_RKS");
+        allNameOFGroupForViewAllPC.add("CH_G_SSZ");
+        allNameOFGroupForViewAllPC.add("CH_G_UKR");
+        allNameOFGroupForViewAllPC.add("CH_G_VVTS");
+        allNameOFGroupForViewAllPC.add("CH_G_VRTZI");
+        allNameOFGroupForViewAllPC.add("CH_G_UOS");
+        allNameOFGroupForViewAllPC.add("CH_G_SZK");
+        allNameOFGroupForViewAllPC.add("CH_G_BPOP");
+        allNameOFGroupForViewAllPC.add("CH_G_VMP");
+        allNameOFGroupForViewAllPC.add("CH_G_UKZ");
+        allNameOFGroupForViewAllPC.add("CH_G_SPZ");
+        allNameOFGroupForViewAllPC.add("CH_G_ITT2");
+        allNameOFGroupForViewAllPC.add("CH_G_UIAP");
+
+        allNameOFGroupForViewAllPC.add("CH_R_VPD1_Mankivka");
+        allNameOFGroupForViewAllPC.add("CH_R_ChRUP");
+        allNameOFGroupForViewAllPC.add("CH_R_VPD1_Cherkasy");
+        allNameOFGroupForViewAllPC.add("CH_R_VPD1_Drabiv");
+        allNameOFGroupForViewAllPC.add("CH_R_SPD2_Kamianka");
+        allNameOFGroupForViewAllPC.add("CH_R_VPD3_Khrystynivka");
+        allNameOFGroupForViewAllPC.add("CH_R_VPD2_Shpola");
+        allNameOFGroupForViewAllPC.add("CH_R_VPD2_Chyhyryn");
+        allNameOFGroupForViewAllPC.add("CH_R_VP1_Kaniv");
+        allNameOFGroupForViewAllPC.add("CH_R_RVP_Zven");
+        allNameOFGroupForViewAllPC.add("CH_R_VP2_Smila");
+        allNameOFGroupForViewAllPC.add("CH_R_VP1_Korsun");
+
+        //Полтавська область
+        allNameOFGroupForViewAllPC.add("PL_G_UIAP");
+        allNameOFGroupForViewAllPC.add("PL_G_UPD");
+        allNameOFGroupForViewAllPC.add("PL_G_UOAZOR");
+        allNameOFGroupForViewAllPC.add("PL_G_UFZBO");
+        allNameOFGroupForViewAllPC.add("PL_G_VPZ");
+        allNameOFGroupForViewAllPC.add("PL_G_SZK");
+        allNameOFGroupForViewAllPC.add("PL_G_VZISD");
+        allNameOFGroupForViewAllPC.add("PL_G_VRTZI");
+        allNameOFGroupForViewAllPC.add("PL_G_VDZ");
+        allNameOFGroupForViewAllPC.add("PL_G_UKR");
+        allNameOFGroupForViewAllPC.add("PL_G_VKA");
+        allNameOFGroupForViewAllPC.add("PL_G_VK");
+        allNameOFGroupForViewAllPC.add("PL_G_VD");
+        allNameOFGroupForViewAllPC.add("PL_G_UMP");
+        allNameOFGroupForViewAllPC.add("PL_G_SKOZ");
+        allNameOFGroupForViewAllPC.add("PL_G_KORD");
+        allNameOFGroupForViewAllPC.add("PL_G_VVS");
+        allNameOFGroupForViewAllPC.add("PL_G_UKZ");
+        allNameOFGroupForViewAllPC.add("PL_G_ULMTZ");
+        allNameOFGroupForViewAllPC.add("PL_G_UHI");
+        allNameOFGroupForViewAllPC.add("PL_G_SSZ");
+        allNameOFGroupForViewAllPC.add("PL_G_UOS");
+        allNameOFGroupForViewAllPC.add("PL_G_UOTZ");
+        allNameOFGroupForViewAllPC.add("PL_G_SU");
+        allNameOFGroupForViewAllPC.add("PL_G_BPOP");
+        allNameOFGroupForViewAllPC.add("PL_G_TTs");
+        allNameOFGroupForViewAllPC.add("PL_G_BPSPOP");
+        allNameOFGroupForViewAllPC.add("PL_G_KTs");
+        allNameOFGroupForViewAllPC.add("PL_G_TsZ");
+        allNameOFGroupForViewAllPC.add("PL_G_RKS");
+
+        allNameOFGroupForViewAllPC.add("PL_R_RUP_Poltava");
+        allNameOFGroupForViewAllPC.add("PL_R_VP1_Poltava");
+        allNameOFGroupForViewAllPC.add("PL_R_VNP1_Poltava");
+        allNameOFGroupForViewAllPC.add("PL_R_VP2_Poltava");
+        allNameOFGroupForViewAllPC.add("PL_R_SPD1_Reshetylivka");
+        allNameOFGroupForViewAllPC.add("PL_R_SPD2_Dykanka");
+        allNameOFGroupForViewAllPC.add("PL_R_VP3_Karlivka");
+        allNameOFGroupForViewAllPC.add("PL_R_SPD1_Mashivka");
+        allNameOFGroupForViewAllPC.add("PL_R_SPD2_Chutove");
+        allNameOFGroupForViewAllPC.add("PL_R_VNP2_Kobeliaky");
+        allNameOFGroupForViewAllPC.add("PL_R_VNP3_Sanzhary");
+        allNameOFGroupForViewAllPC.add("PL_R_VNP4_Zinkiv");
+        allNameOFGroupForViewAllPC.add("PL_R_SPD1_ Kotelva");
+        allNameOFGroupForViewAllPC.add("PL_R_RUP_Kremenchuk");
+        allNameOFGroupForViewAllPC.add("PL_R_VNP1_Kremenchuk");
+        allNameOFGroupForViewAllPC.add("PL_R_VNP2_Kremenchuk");
+        allNameOFGroupForViewAllPC.add("PL_R_VP1_Hlobyne");
+        allNameOFGroupForViewAllPC.add("PL_R_SPD1_Semenivka");
+        allNameOFGroupForViewAllPC.add("PL_R_VP2_Horishni_P");
+        allNameOFGroupForViewAllPC.add("PL_R_SPD1_Kozelshchyna");
+        allNameOFGroupForViewAllPC.add("PL_R_RVP_Myrhorod");
+        allNameOFGroupForViewAllPC.add("PL_R_VNP1_Hadiach");
+        allNameOFGroupForViewAllPC.add("PL_R_VNP2_Lokhvytsia");
+        allNameOFGroupForViewAllPC.add("PL_R_VNP3_Bahachka");
+        allNameOFGroupForViewAllPC.add("PL_R_SPD1_Shyshaky");
+        allNameOFGroupForViewAllPC.add("PL_R_RVP_Lubny");
+        allNameOFGroupForViewAllPC.add("PL_R_VNP1_Pyriatyn");
+        allNameOFGroupForViewAllPC.add("PL_R_SPD1_Hrebinka");
+        allNameOFGroupForViewAllPC.add("PL_R_SPD2_Chornukhy");
+        allNameOFGroupForViewAllPC.add("PL_R_VNP2_Khorol");
+        allNameOFGroupForViewAllPC.add("PL_R_SPD1_Orzhytsia");
+
+
+        // Харкывська область
+        allNameOFGroupForViewAllPC.add("HK_G_VD");
+        allNameOFGroupForViewAllPC.add("HK_G_UKR");
+        allNameOFGroupForViewAllPC.add("HK_G_UMP");
+        allNameOFGroupForViewAllPC.add("HK_G_UPD");
+        allNameOFGroupForViewAllPC.add("HK_G_UIAP");
+        allNameOFGroupForViewAllPC.add("HK_G_UFZBO");
+        allNameOFGroupForViewAllPC.add("HK_G_KORD");
+        allNameOFGroupForViewAllPC.add("HK_G_UKA");
+        allNameOFGroupForViewAllPC.add("HK_G_UHI");
+        allNameOFGroupForViewAllPC.add("HK_G_UOAZOR");
+        allNameOFGroupForViewAllPC.add("HK_G_ULMTZ_MA");
+        allNameOFGroupForViewAllPC.add("HK_G_ULMTZ_MO");
+        allNameOFGroupForViewAllPC.add("HK_G_ULMTZ_NA");
+        allNameOFGroupForViewAllPC.add("HK_G_SPPZ");
+        allNameOFGroupForViewAllPC.add("HK_G_VPZ");
+        allNameOFGroupForViewAllPC.add("HK_G_VMPS");
+        allNameOFGroupForViewAllPC.add("HK_G_VOZDMTTO");
+        allNameOFGroupForViewAllPC.add("HK_G_URTZI");
+        allNameOFGroupForViewAllPC.add("HK_G_VKOZ");
+        allNameOFGroupForViewAllPC.add("HK_G_PRD");
+        allNameOFGroupForViewAllPC.add("HK_G_VDZ");
+        allNameOFGroupForViewAllPC.add("HK_G_UVTS");
+        allNameOFGroupForViewAllPC.add("HK_G_ITT1");
+        allNameOFGroupForViewAllPC.add("HK_G_VSP");
+        allNameOFGroupForViewAllPC.add("HK_G_VK");
+        allNameOFGroupForViewAllPC.add("HK_G_VVA");
+        allNameOFGroupForViewAllPC.add("HK_G_VZK");
+        allNameOFGroupForViewAllPC.add("HK_G_UOS");
+        allNameOFGroupForViewAllPC.add("HK_G_UOTZ");
+        allNameOFGroupForViewAllPC.add("HK_G_PPOP");
+        allNameOFGroupForViewAllPC.add("HK_G_RPSPOP");
+        allNameOFGroupForViewAllPC.add("HK_G_BKS");
+        allNameOFGroupForViewAllPC.add("HK_G_UKZ");
+        allNameOFGroupForViewAllPC.add("HK_G_KTs");
+        allNameOFGroupForViewAllPC.add("HK_G_TTs");
+        allNameOFGroupForViewAllPC.add("HK_G_SSZ");
+
+        allNameOFGroupForViewAllPC.add("HK_R_Kyivskyi");
+        allNameOFGroupForViewAllPC.add("HK_R_VP1_Osnovianskyi");
+        allNameOFGroupForViewAllPC.add("HK_R_VP2_Slobidskyi");
+        allNameOFGroupForViewAllPC.add("HK_R_VP3_KhVP");
+        allNameOFGroupForViewAllPC.add("HK_R_VP1_AEKh");
+        allNameOFGroupForViewAllPC.add("HK_R_VP2_Liubotyn");
+        allNameOFGroupForViewAllPC.add("HK_R_VP3_Vodolaha");
+        allNameOFGroupForViewAllPC.add("HK_R_SPD1_Osnova");
+        allNameOFGroupForViewAllPC.add("HK_R_KhRUP2_Saltivske");
+        allNameOFGroupForViewAllPC.add("HK_R_VP1_Industrialnyi");
+        allNameOFGroupForViewAllPC.add("HK_R_VP2_Nemyshlianskyi");
+        allNameOFGroupForViewAllPC.add("HK_R_VP1_Lypytske");
+        allNameOFGroupForViewAllPC.add("HK_R_KhRUP3_Shevchenkivskyi");
+        allNameOFGroupForViewAllPC.add("HK_R_VP1_Novobavarskyi");
+        allNameOFGroupForViewAllPC.add("HK_R_VP2_Kholodnohirskyi");
+        allNameOFGroupForViewAllPC.add("HK_R_VP3_Derhachi");
+        allNameOFGroupForViewAllPC.add("HK_R_VP1_ZOZS");
+        allNameOFGroupForViewAllPC.add("HK_R_Iziumskyi_RUP");
+        allNameOFGroupForViewAllPC.add("HK_R_VP1_Balakliia");
+        allNameOFGroupForViewAllPC.add("HK_R_VP1_Barvinkove");
+        allNameOFGroupForViewAllPC.add("HK_R_SPD1_Borova");
+        allNameOFGroupForViewAllPC.add("HK_R_RUP_Chuhuiv");
+        allNameOFGroupForViewAllPC.add("HK_R_VP1_Vovchansk");
+        allNameOFGroupForViewAllPC.add("HK_R_VP2_ChRUP");
+        allNameOFGroupForViewAllPC.add("HK_R_RVP_Bohodukhiv");
+        allNameOFGroupForViewAllPC.add("HK_R_VP1_Valky");
+        allNameOFGroupForViewAllPC.add("HK_R_VP2_Zolochiv");
+        allNameOFGroupForViewAllPC.add("HK_R_SPD1_Kolomak");
+        allNameOFGroupForViewAllPC.add("HK_R_SPD2_Krasnokutsk");
+        allNameOFGroupForViewAllPC.add("HK_R_Krasnohradskyi_RVP");
+        allNameOFGroupForViewAllPC.add("HK_R_VP1_Sakhnovshchyna");
+        allNameOFGroupForViewAllPC.add("HK_R_SPD1_Kehychivka");
+        allNameOFGroupForViewAllPC.add("HK_R_SPD1_Zachepylivka");
+        allNameOFGroupForViewAllPC.add("HK_R_RVP_Kupiansk");
+        allNameOFGroupForViewAllPC.add("HK_R_VP1_Kupianskoho_RVP");
+        allNameOFGroupForViewAllPC.add("HK_R_VPD1_Kupianskoho_RVP");
+        allNameOFGroupForViewAllPC.add("HK_R_SPD1 _Kupianskoho_RVP");
+        allNameOFGroupForViewAllPC.add("HK_R_Lozivskyi_RVP");
+        allNameOFGroupForViewAllPC.add("HK_R_VP1_Pervomaisk");
+        allNameOFGroupForViewAllPC.add("HK_R_SPD1_Lozivskoho_RVP");
+        allNameOFGroupForViewAllPC.add("HK_R_VP_Metro");
+
 
     }
 
