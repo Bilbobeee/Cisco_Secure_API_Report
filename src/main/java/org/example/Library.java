@@ -28,6 +28,8 @@ public class Library {
         list.add("PL_R_");
         list.add("HK_G_");
         list.add("HK_R_");
+        list.add("O_G_");
+        list.add("O_R_");
     }
 
     ArrayList<String> allNameOFGroupForViewAllPC = new ArrayList<>();
@@ -459,8 +461,7 @@ public class Library {
         allNameOFGroupForViewAllPC.add("PL_R_VNP2_Khorol");
         allNameOFGroupForViewAllPC.add("PL_R_SPD1_Orzhytsia");
 
-
-        // Харкывська область
+        // Харківська область
         allNameOFGroupForViewAllPC.add("HK_G_VD");
         allNameOFGroupForViewAllPC.add("HK_G_UKR");
         allNameOFGroupForViewAllPC.add("HK_G_UMP");
@@ -539,6 +540,78 @@ public class Library {
         allNameOFGroupForViewAllPC.add("HK_R_VP1_Pervomaisk");
         allNameOFGroupForViewAllPC.add("HK_R_SPD1_Lozivskoho_RVP");
         allNameOFGroupForViewAllPC.add("HK_R_VP_Metro");
+
+        //Одеса
+        allNameOFGroupForViewAllPC.add("O_G_TsZ");
+        allNameOFGroupForViewAllPC.add("O_G_KTs");
+        allNameOFGroupForViewAllPC.add("O_G_VK");
+        allNameOFGroupForViewAllPC.add("O_G_UZISD");
+        allNameOFGroupForViewAllPC.add("O_G_UFZBO");
+        allNameOFGroupForViewAllPC.add("O_G_UKZ");
+        allNameOFGroupForViewAllPC.add("O_G_ULMTZ");
+        allNameOFGroupForViewAllPC.add("O_G_BPSPOP_Shtorm");
+        allNameOFGroupForViewAllPC.add("O_G_VPZ");
+        allNameOFGroupForViewAllPC.add("O_G_UVTS");
+        allNameOFGroupForViewAllPC.add("O_G_VMPS");
+        allNameOFGroupForViewAllPC.add("O_G_UKA");
+        allNameOFGroupForViewAllPC.add("O_G_BPOP");
+        allNameOFGroupForViewAllPC.add("O_G_KORD");
+        allNameOFGroupForViewAllPC.add("O_G_BKS");
+        allNameOFGroupForViewAllPC.add("O_G_SPPZ");
+        allNameOFGroupForViewAllPC.add("O_G_VOZDMTTO");
+        allNameOFGroupForViewAllPC.add("O_G_UHI");
+        allNameOFGroupForViewAllPC.add("O_G_UIAP");
+        allNameOFGroupForViewAllPC.add("O_G_VZK");
+        allNameOFGroupForViewAllPC.add("O_G_UOS");
+        allNameOFGroupForViewAllPC.add("O_G_UPD");
+        allNameOFGroupForViewAllPC.add("O_G_SSZ");
+        allNameOFGroupForViewAllPC.add("O_G_URTZI");
+        allNameOFGroupForViewAllPC.add("O_G_VDZ");
+        allNameOFGroupForViewAllPC.add("O_G_UOAZOR");
+        allNameOFGroupForViewAllPC.add("O_G_SU");
+        allNameOFGroupForViewAllPC.add("O_G_UKR");
+        allNameOFGroupForViewAllPC.add("O_G_UMP");
+        allNameOFGroupForViewAllPC.add("O_G_VD");
+
+        allNameOFGroupForViewAllPC.add("O_R_ORUP1");
+        allNameOFGroupForViewAllPC.add("O_R_ORUP1_VP1");
+        allNameOFGroupForViewAllPC.add("O_R_ORUP1_SPD1");
+        allNameOFGroupForViewAllPC.add("O_R_ORUP1_VP2");
+        allNameOFGroupForViewAllPC.add("O_R_ORUP1_VP3");
+        allNameOFGroupForViewAllPC.add("O_R_ORUP1_VP4");
+        allNameOFGroupForViewAllPC.add("O_R_ORUP1_VP5");
+        allNameOFGroupForViewAllPC.add("O_R_ORUP1_VDNP1");
+        allNameOFGroupForViewAllPC.add("O_R_ORUP1_VDNP2");
+        allNameOFGroupForViewAllPC.add("O_R_ORUP1_VDNP3");
+        allNameOFGroupForViewAllPC.add("O_R_ORUP2");
+        allNameOFGroupForViewAllPC.add("O_R_ORUP2_VP1");
+        allNameOFGroupForViewAllPC.add("O_R_ORUP2_VP2");
+        allNameOFGroupForViewAllPC.add("O_R_ORUP2_VP3");
+        allNameOFGroupForViewAllPC.add("O_R_ORUP2_VP4");
+        allNameOFGroupForViewAllPC.add("O_R_RVP_Berezivka");
+        allNameOFGroupForViewAllPC.add("O_R_RVP_Mykolaivka");
+        allNameOFGroupForViewAllPC.add("O_R_VP1_Ivanivka");
+        allNameOFGroupForViewAllPC.add("O_R_VP2_Shyriaieve");
+        allNameOFGroupForViewAllPC.add("O_R_RVP_BD");
+        allNameOFGroupForViewAllPC.add("O_R_VP1_Sarata");
+        allNameOFGroupForViewAllPC.add("O_R_VP2_Tatarbunary");
+        allNameOFGroupForViewAllPC.add("O_R_RVP_Bolhrad");
+        allNameOFGroupForViewAllPC.add("O_R_RVP_Artsyz");
+        allNameOFGroupForViewAllPC.add("O_R_VP2_Tarutyne");
+        allNameOFGroupForViewAllPC.add("O_R_VP_Izmail");
+        allNameOFGroupForViewAllPC.add("O_R_VP_Kiliia");
+        allNameOFGroupForViewAllPC.add("O_R_VP2_Reni");
+        allNameOFGroupForViewAllPC.add("O_R_VPD1_Kodyma");
+        allNameOFGroupForViewAllPC.add("O_R_VPD2_Okny");
+        allNameOFGroupForViewAllPC.add("O_R_VP1_Liubashivka");
+        allNameOFGroupForViewAllPC.add("O_R_SPD1_Ananiv");
+        allNameOFGroupForViewAllPC.add("O_R_SPD1_Savran");
+        allNameOFGroupForViewAllPC.add("O_R_VP1_Balta");
+        allNameOFGroupForViewAllPC.add("O_R_RUP_Podilsk");
+        allNameOFGroupForViewAllPC.add("O_R_VP_Rozdilna");
+        allNameOFGroupForViewAllPC.add("O_R_VP1_Velyka");
+        allNameOFGroupForViewAllPC.add("O_R_VP2_Zakharivka");
+        allNameOFGroupForViewAllPC.add("O_R_VP4_Usatove");
 
 
     }
